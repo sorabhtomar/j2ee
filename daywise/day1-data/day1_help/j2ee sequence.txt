@@ -71,7 +71,7 @@ What is Web container --- (WC) & its jobs
 Its run-time env for dyn web components(Servlet & JSP,Filter) . 
 Jobs ---
 1. Creating Http Request & Http response objects 
-2. Controlling life-cycle of web comps (manages life cycle of servlet,JSP,Filters)
+2. Controlling life-cycle of web comps (manages life cycle of servlet,JSP,Filters) --init, service, destroy
 3. Giving ready-made support for services --- Naming,security,Conn pooling .
 
 
