@@ -1,0 +1,25 @@
+Day 1
+1. Revise JDBC & solve customer CRUD , in core Java
+1.1 Create  "my_customers" table from "core_java_help\day18_help\jdbc help\sql_for_mysql.cmds.txt
+1.2 Create customer POJO
+1.3 Create Customer DAO i/f & implementation class.
+1.4 Create Tester for
+--Register Customer
+--Login
+--Update password
+--un subscribe customer.
+
+2. Start tomcat server as per readme startup.
+3. Create new J2EE workspace in eclipse . 
+Add Apache Tomcat server & test it.
+4. Create dynamic web application with IDE & test HTML content(welcome page).
+5. Without IDE, create J2EE compliant web application(under webapps). Add index.html & HelloServlet to test life cycle of servlet.
+
+
+
+
+
+
+
+
+

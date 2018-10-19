@@ -1,0 +1,171 @@
+Java EE 7 (J2EE 1.7)
+
+What is J2EE ?
+
+Consists of specifications only .
+
+Which specs ? (Rules or contract )
+Specifications of services required for any enterprise application.
+
+What is enterprise application ?
+
+An enterprise application (EA) is a large software system platform designed to operate in a corporate environment .
+
+It includes online shopping and payment processing, interactive product catalogs, computerized billing systems, security, content management, IT service management,  business intelligence, human resource management, manufacturing, process automation, enterprise resource planning ....
+
+These specifications include ---
+
+Servlet API,JSP API,Security,Connection pooling ,EJB (Enterprise Java Bean), JNDI(Naming service -- Java naming & directory i/f),JPA(java persistence API),JMS(java messaging service),Java Mail, Java Server Faces , Java Transaction API, Webservices support etc...
+
+Vendor of J2EE -- Oracle Sun.
+
+Implementation -- left to vendors (J2EE server vendors)
+J2EE compliant web server --- Apache -- Tomcat (web container)
+Services implemented --- servlet API,JSP API,Security,Connection pooling,JNDI
+
+J2EE complaint application server --- web container + EJB container
++ ALL J2EE services imple
+
+Apache --- Tomee 
+Red Hat -- JBoss(wildfly)
+IBM -- Websphere....
+
+Version details - J2EE 1.7 or Java EE 7
+
+
+J2EE server Vendors & Products
+Oracle / Sun --- ref imple. --- Glassfish
+Red Hat -- JBoss (wild fly)
+Oracle / BEA -- weblogic
+IBM -- Websphere
+
+
+WHY J2EE
+1. Can support different types of clnts --- thin client(web clnt)
+thick clnt --- application clnt
+smart clnts -- mobile clnts
+
+2. J2EE server independence --- Create & deploy server side appln --on ANY J2ee compliant server --- guaranteed to produce SAME results w/o touching or re-deploying on ANY other J2EE server
+
+3. Ready made implementation of primary services(eg --- security, conn,pooling,email....)--- so that J2EE developer DOESn't have to worry about primary services ---rather can concentrate on actual business logic.
+-----------------------
+
+Layers involved in request-response flow
+
+Web browser sends the request (URL)
+ http://www.abc.com:8080/first_web/index.html 
+
+Host --Web server--Web Container(server side JVM)--Web application
+
+
+What is dyn web application --- server side appln --deployed on web server --- meant for servicing typically web clnts(thin) -- listening on HTTP /HTTPS
+
+J2EE compliant web application folder structure
+Refer to diag.
+
+
+Reading H.W -- HTTP overview,Web server overview
+
+What is Web container --- (WC) & its jobs
+1. Server side JVM residing within web server.
+Its run-time env for dyn web components(Servlet & JSP,Filter) . 
+Jobs ---
+1. Creating Http Request & Http response objects 
+2. Controlling life-cycle of web comps (manages life cycle of servlet,JSP,Filters)
+3. Giving ready-made support for services --- Naming,security,Conn pooling .
+
+
+What is web.xml --- Deployment descriptor one per web appln
+created by -- dev
+who reads it -- WC
+when --- @ deployment 
+what --- dep instrs --- welcome page, servlet deployment tags, sess config, sec config......
+
+Creating & deploying dyn web appln on Tomcat -- HTML content
+
+What is a servlet ?
+-- Java class -- represents dyn web comp - whose life cycle will be managed by WC
+no main method
+life cycle methods --- init,service,destroy
+
+
+Why servlets? --- To add dynamic nature to the web application
+Job list
+
+1. Request processing
+2. B.L 
+3. response generation
+4. Data access logic
+5. Page navigation
+
+
+Creating & deploy Hello Servlet. (W/O IDE & then with IDE)
+refer to readme startup
+
+
+
+
+How to read request parameters in Servlet ?
+ServletRequest API
+1. public String getParameter(String paramName)
+
+2. public String[] getParameterValues(String paramName)
+
+Servlet & JDBC Integration
+
+Layers involved 
+Servlet --DAO -- POJO -- DB
+
+URL 
+http://www.abc.com:8080/day1_web/validate?em=abc&pass=1234
+Explain the parts.
+URI --- /day1_web/validate?em=abc&pass=1234
+
+
+1. What will happen --if u don't add "/" in url-pattern? --- web app doesn't get deployed ---- invalid url pattern (IllegalArgumentException)
+2. What will happen --if u add "/url-pattern" in form action or href ? --- HTTP 404 (uses absolute url eg : http://host:port/hi)
+
+3. Can 1 servlet have multiple url patterns ? ---YES
+4. Can any 2 servlets have the same url pattern ? -- NO
+
+4.5 How to deploy a servlet w/o annotations --- via XML tags
+web.xml
+<servlet>
+ <servlet-name>abc</servlet-name>
+ <servlet-class>pages.TestServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+ <servlet-name>abc</servlet-name>
+ <url-pattern>/hello</url-pattern>
+</servlet-mapping>
+
+Solve --http://www.abc.com:8080/day1_web/hello
+
+At the time of web app deployment ---WC tries to populate map of url patterns , from XML tags (from web.xml). If not found --- will check for @WebServlet annotation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
