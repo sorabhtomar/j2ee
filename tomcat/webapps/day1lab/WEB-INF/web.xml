@@ -5,17 +5,16 @@
   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
  
    <!-- To save as "day1lab\WEB-INF\web.xml" -->
- 
+
    <servlet>
       <servlet-name>HelloWorld</servlet-name>
       <servlet-class>HelloServlet</servlet-class>
    </servlet>
- 
    <!-- Note: All <servlet> elements MUST be grouped together and
          placed IN FRONT of the <servlet-mapping> elements -->
- 
+
    <servlet-mapping>
       <servlet-name>HelloWorld</servlet-name>
-      <url-pattern>/hi</url-pattern>
+      <url-pattern>/hello</url-pattern>
    </servlet-mapping>
 </web-app>

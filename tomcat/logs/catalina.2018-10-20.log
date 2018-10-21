@@ -1,0 +1,71 @@
+20-Oct-2018 19:14:21.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.12
+20-Oct-2018 19:14:21.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:13:41 UTC
+20-Oct-2018 19:14:21.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.12.0
+20-Oct-2018 19:14:21.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Oct-2018 19:14:21.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Oct-2018 19:14:21.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Oct-2018 19:14:21.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_181\jre
+20-Oct-2018 19:14:21.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+20-Oct-2018 19:14:21.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Oct-2018 19:14:21.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\j2ee\tomcat
+20-Oct-2018 19:14:21.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\j2ee\tomcat
+20-Oct-2018 19:14:21.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\j2ee\tomcat\conf\logging.properties
+20-Oct-2018 19:14:21.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Oct-2018 19:14:21.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Oct-2018 19:14:21.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Oct-2018 19:14:21.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+20-Oct-2018 19:14:21.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\j2ee\tomcat
+20-Oct-2018 19:14:21.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\j2ee\tomcat
+20-Oct-2018 19:14:21.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\j2ee\tomcat\temp
+20-Oct-2018 19:14:21.410 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+20-Oct-2018 19:14:21.412 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20-Oct-2018 19:14:21.413 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20-Oct-2018 19:14:22.599 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+20-Oct-2018 19:14:22.966 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-80"]
+20-Oct-2018 19:14:23.361 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Oct-2018 19:14:23.385 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Oct-2018 19:14:23.391 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Oct-2018 19:14:23.392 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3073 ms
+20-Oct-2018 19:14:23.471 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Oct-2018 19:14:23.472 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.12
+20-Oct-2018 19:14:23.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\j2ee\tomcat\webapps\.metadata]
+20-Oct-2018 19:14:24.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\j2ee\tomcat\webapps\.metadata] has finished in [993] ms
+20-Oct-2018 19:14:24.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\j2ee\tomcat\webapps\day1lab]
+20-Oct-2018 19:14:24.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\j2ee\tomcat\webapps\day1lab] has finished in [116] ms
+20-Oct-2018 19:14:24.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\j2ee\tomcat\webapps\day2lab]
+20-Oct-2018 19:14:24.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\j2ee\tomcat\webapps\day2lab] has finished in [58] ms
+20-Oct-2018 19:14:24.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\j2ee\tomcat\webapps\docs]
+20-Oct-2018 19:14:24.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\j2ee\tomcat\webapps\docs] has finished in [70] ms
+20-Oct-2018 19:14:24.761 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\j2ee\tomcat\webapps\examples]
+20-Oct-2018 19:14:25.979 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\j2ee\tomcat\webapps\examples] has finished in [1,218] ms
+20-Oct-2018 19:14:25.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\j2ee\tomcat\webapps\host-manager]
+20-Oct-2018 19:14:26.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\j2ee\tomcat\webapps\host-manager] has finished in [112] ms
+20-Oct-2018 19:14:26.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\j2ee\tomcat\webapps\manager]
+20-Oct-2018 19:14:26.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\j2ee\tomcat\webapps\manager] has finished in [87] ms
+20-Oct-2018 19:14:26.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\j2ee\tomcat\webapps\ROOT]
+20-Oct-2018 19:14:26.258 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\j2ee\tomcat\webapps\ROOT] has finished in [76] ms
+20-Oct-2018 19:14:26.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\j2ee\tomcat\webapps\Servers]
+20-Oct-2018 19:14:26.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\j2ee\tomcat\webapps\Servers] has finished in [59] ms
+20-Oct-2018 19:14:26.330 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-80"]
+20-Oct-2018 19:14:26.361 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+20-Oct-2018 19:14:26.371 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2978 ms
+20-Oct-2018 19:19:27.528 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/day1lab]
+20-Oct-2018 19:19:27.557 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day1lab] has started
+20-Oct-2018 19:19:27.678 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day1lab] is completed
+20-Oct-2018 19:22:08.272 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/day1lab]
+20-Oct-2018 19:22:08.275 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day1lab] has started
+20-Oct-2018 19:22:08.334 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day1lab] is completed
+20-Oct-2018 19:22:48.475 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/day1lab]
+20-Oct-2018 19:22:48.476 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day1lab] has started
+20-Oct-2018 19:22:48.548 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day1lab] is completed
+20-Oct-2018 19:22:58.574 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/day1lab]
+20-Oct-2018 19:22:58.575 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day1lab] has started
+20-Oct-2018 19:22:58.644 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/day1lab] is completed
+20-Oct-2018 19:23:12.526 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Oct-2018 19:23:12.527 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-80"]
+20-Oct-2018 19:23:12.913 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Oct-2018 19:23:13.214 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Oct-2018 19:23:13.293 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-80"]
+20-Oct-2018 19:23:13.300 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Oct-2018 19:23:13.306 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-80"]
+20-Oct-2018 19:23:13.308 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
